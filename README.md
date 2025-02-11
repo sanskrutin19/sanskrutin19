@@ -17,7 +17,8 @@
 
 ###
 
-<p align="center">I'm  Sanskruti Naik <br>Aspiring AIML student at Sanjay Ghodwat University with a keen interest in web design and development. I have a strong grasp of programming languages and have completed various projects that highlight my skills in creating visually appealing, user-friendly interfaces. A quick learner with excellent problem-solving abilities, I am committed to staying current with web design trends and eager to collaborate on innovative projects.<br><br>- ⚡ In my free time I love to read books</p>
+<p align="center">I'm  Sanskruti Naik <br>Aspiring AIML student at Sanjay Ghodwat University with a keen interest in web design and development. I have a strong grasp of  languages and have completed few projects that highlight my skills in creating visually appealing, user-friendly interfaces. A quick learner with excellent problem-solving abilities, I am committed to staying current with web design trends and eager to collaborate on innovative projects.<br><br>
+  - ⚡ In my free time I love to read books</p>
 
 ###
 
