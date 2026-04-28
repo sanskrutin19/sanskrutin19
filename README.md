@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sanskruti%20Naik&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20%2F%20ML%20Engineer%20%7C%20Full-Stack%20Builder%20%7C%20XAI%20Researcher&descAlignY=55&descSize=16" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sanskruti%20Naik&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20%2F%20ML%20Engineer%20%7C%20Full-Stack%20Builder%20%7C%20Computer%20Vision&descAlignY=55&descSize=16" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sanskruti-naik-475322341)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-mcbr.vercel.app)
