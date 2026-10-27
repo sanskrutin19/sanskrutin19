@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="Sanskruti Naik — AI / ML Engineer. I build intelligence into real products.">
+  <style>
+    .bg { fill: #e6e6e6; }
+    .chip { fill: #d4d4d2; }
+    .chipt { font: 500 17px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #1e1e1e; }
+    .name { font: 800 132px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #1d3cff; letter-spacing: -7px; }
+    .tag { font: 400 26px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #3c3c3c; letter-spacing: -.5px; }
+    .mono { font: 500 14px 'Cascadia Mono', 'Consolas', 'SFMono-Regular', monospace; fill: #6a6a6a; letter-spacing: 1px; }
+    .live { font: 600 15px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #1d3cff; }
+    .l1 { animation: rise 1s cubic-bezier(.2,.7,.1,1) both; }
+    .l2 { animation: rise 1s cubic-bezier(.2,.7,.1,1) .15s both; }
+    .t  { animation: fade 1s ease .6s both; }
+    @keyframes rise { from { transform: translateY(40px); opacity: 0; } to { transform: none; opacity: 1; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    .edge { stroke: #1e1e1e; stroke-opacity: .16; stroke-width: 1.2; fill: none; }
+    .node { fill: #1e1e1e; fill-opacity: .55; }
+    .path { stroke: #1d3cff; stroke-width: 3.5; fill: none; stroke-linecap: round; stroke-dasharray: 520; stroke-dashoffset: 520; animation: trace 4.5s cubic-bezier(.6,0,.3,1) infinite; }
+    .hot { fill: #1d3cff; animation: pulse 4.5s ease infinite; }
+    .h1 { animation-delay: .2s; } .h2 { animation-delay: .9s; } .h3 { animation-delay: 1.6s; } .h4 { animation-delay: 2.3s; }
+    @keyframes trace { 0% { stroke-dashoffset: 520; } 55%, 80% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -520; } }
+    @keyframes pulse { 0%, 100% { opacity: .25; } 40%, 75% { opacity: 1; } }
+    .dot { fill: #1d3cff; animation: blink 1.6s steps(2, start) infinite; }
+    @keyframes blink { to { visibility: hidden; } }
+    .lbl { font: 600 12px 'Cascadia Mono', 'Consolas', monospace; fill: #1d3cff; letter-spacing: 1px; animation: pulse 4.5s ease infinite; }
+  </style>
+  <rect class="bg" width="1280" height="400" rx="18"/>
+
+  <!-- chips, like the portfolio -->
+  <rect class="chip" x="48" y="40" width="168" height="30"/><text class="chipt" x="58" y="61">AI / ML Engineer</text>
+  <rect class="chip" x="224" y="40" width="132" height="30"/><text class="chipt" x="234" y="61">Generative AI</text>
+  <rect class="chip" x="364" y="40" width="64" height="30"/><text class="chipt" x="374" y="61">RAG</text>
+  <rect class="chip" x="436" y="40" width="168" height="30"/><text class="chipt" x="446" y="61">Computer Vision</text>
+
+  <g class="l1"><text class="name" x="40" y="196">SANSKRUTI</text></g>
+  <g class="l2"><text class="name" x="40" y="314">NAIK</text></g>
+  <text class="tag t" x="48" y="362">I build intelligence into real products.</text>
+
+  <!-- a small retrieval network: query → … → cite -->
+  <g transform="translate(860 96)">
+    <path class="edge" d="M0 120 L100 40 M0 120 L100 120 M0 120 L100 200 M100 40 L210 80 M100 120 L210 80 M100 120 L210 160 M100 200 L210 160 M210 80 L320 120 M210 160 L320 120 M100 40 L210 160 M100 200 L210 80"/>
+    <circle class="node" cx="0" cy="120" r="7"/><circle class="node" cx="100" cy="40" r="6"/><circle class="node" cx="100" cy="120" r="6"/><circle class="node" cx="100" cy="200" r="6"/>
+    <circle class="node" cx="210" cy="80" r="6"/><circle class="node" cx="210" cy="160" r="6"/><circle class="node" cx="320" cy="120" r="8"/>
+    <path class="path" d="M0 120 L100 200 L210 80 L320 120"/>
+    <circle class="hot h1" cx="0" cy="120" r="9"/><circle class="hot h2" cx="100" cy="200" r="8"/><circle class="hot h3" cx="210" cy="80" r="8"/><circle class="hot h4" cx="320" cy="120" r="10"/>
+    <text class="lbl h1" x="-20" y="150">QUERY</text><text class="lbl h2" x="76" y="230">RETRIEVE</text><text class="lbl h3" x="186" y="60">RERANK</text><text class="lbl h4" x="294" y="160">CITE</text>
+  </g>
+
+  <circle class="dot" cx="905" cy="356" r="6"/>
+  <text class="live" x="920" y="361">Seeking AI / ML engineering roles</text>
+  <text class="mono" x="1060" y="62">KOLHAPUR · IN</text>
+</svg>

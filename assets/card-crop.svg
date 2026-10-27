@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Crop-disease diagnosis: CNN with Grad-CAM explanations in a Flutter app">
+  <style>
+    .t { font: italic 300 34px Georgia, 'Times New Roman', serif; fill: #22381f; }
+    .s { font: 400 16px Georgia, serif; fill: #4e6148; }
+    .m { font: italic 600 13px Georgia, serif; fill: #c2551f; }
+    .pill { font: 600 15px Georgia, serif; fill: #22381f; }
+    .pl { font: 400 11px Georgia, serif; fill: #4e6148; }
+    .heat { animation: glow 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .h2 { animation-delay: 1.3s; }
+    @keyframes glow { 0%, 100% { opacity: .55; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.06); } }
+    .leaf { animation: sway 5s ease-in-out infinite; transform-origin: 480px 320px; }
+    @keyframes sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+  </style>
+  <defs>
+    <radialGradient id="hot"><stop offset="0" stop-color="#fffbe0"/><stop offset=".35" stop-color="#ffaa28" stop-opacity=".85"/><stop offset=".7" stop-color="#ff3c28" stop-opacity=".35"/><stop offset="1" stop-color="#ff3c28" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="#f4f1e4"/>
+  <rect x="1" y="1" width="598" height="358" rx="15" fill="none" stroke="#22381f" stroke-opacity=".18"/>
+  <text class="m" x="32" y="44">Specimen nº 03 · internship · shipped</text>
+  <text class="t" x="32" y="88">A diagnosis that</text>
+  <text class="t" x="32" y="126">shows its work.</text>
+  <text class="s" x="32" y="160">CNN crop-disease diagnosis in a Flutter app;</text>
+  <text class="s" x="32" y="182">Grad-CAM shows which part of the leaf mattered.</text>
+
+  <g transform="translate(32 214)">
+    <rect width="86" height="54" rx="27" fill="#fffdf4" stroke="#22381f" stroke-opacity=".2"/><text class="pill" x="22" y="27">92%</text><text class="pl" x="16" y="43">accuracy</text>
+    <rect x="96" width="86" height="54" rx="27" fill="#fffdf4" stroke="#22381f" stroke-opacity=".2"/><text class="pill" x="126" y="27">38</text><text class="pl" x="117" y="43">diseases</text>
+    <rect x="192" width="96" height="54" rx="27" fill="#fffdf4" stroke="#22381f" stroke-opacity=".2"/><text class="pill" x="205" y="27">&lt;200 ms</text><text class="pl" x="219" y="43">latency</text>
+  </g>
+  <text x="32" y="316" style="font: 500 13px 'Segoe UI', Arial, sans-serif; fill: #22381f">TensorFlow  ·  FastAPI  ·  Grad-CAM  ·  Flutter</text>
+
+  <g class="leaf">
+    <path d="M480 78 C 560 120, 578 230, 482 320 C 386 230, 400 120, 480 78 Z" fill="#3f7a34" stroke="#2a5a26" stroke-width="2"/>
+    <path d="M480 86 L482 314" stroke="#c4e696" stroke-opacity=".7" stroke-width="2.5" fill="none"/>
+    <path d="M481 130 L440 112 M481 130 L522 112 M481 170 L432 148 M481 170 L530 148 M482 210 L436 192 M482 210 L528 192 M482 250 L448 236 M482 250 L516 236" stroke="#c4e696" stroke-opacity=".5" stroke-width="1.6" fill="none"/>
+    <circle class="heat" cx="512" cy="160" r="40" fill="url(#hot)"/>
+    <circle class="heat h2" cx="456" cy="236" r="30" fill="url(#hot)"/>
+  </g>
+</svg>

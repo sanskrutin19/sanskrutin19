@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="SecureChat: end-to-end encrypted messaging with the Signal Protocol">
+  <style>
+    .g { fill: #5effa8; }
+    .t { font: 700 30px 'Cascadia Mono', Consolas, 'SFMono-Regular', monospace; fill: #5effa8; letter-spacing: -1px; }
+    .s { font: 400 15px 'Cascadia Mono', Consolas, monospace; fill: #9fd9b8; }
+    .m { font: 600 11px 'Cascadia Mono', Consolas, monospace; fill: #9fd9b8; letter-spacing: 1.5px; }
+    .b { font: 500 13px 'Segoe UI', Arial, sans-serif; }
+    .pk { animation: fly 2.4s linear infinite; }
+    .pk2 { animation-delay: .8s; } .pk3 { animation-delay: 1.6s; }
+    @keyframes fly { from { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } to { transform: translateX(150px); opacity: 0; } }
+    .cur { animation: blink 1s steps(2, start) infinite; }
+    @keyframes blink { to { visibility: hidden; } }
+    .scan { fill: url(#sl); }
+  </style>
+  <defs>
+    <pattern id="sl" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity=".25"/></pattern>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="#050806"/>
+  <rect x="1" y="1" width="598" height="358" rx="15" fill="none" stroke="#5effa8" stroke-opacity=".25"/>
+  <text class="m" x="32" y="44">02 · $ cat securechat.md</text>
+  <text class="t" x="32" y="86">PRIVACY IS AN</text>
+  <text class="t" x="32" y="120">ARCHITECTURAL DECISION<tspan class="cur">_</tspan></text>
+  <text class="s" x="32" y="152">End-to-end encrypted chat (Signal Protocol),</text>
+  <text class="s" x="32" y="172">WebRTC calls, 500 MB encrypted files, offline-first.</text>
+
+  <!-- two devices, ciphertext in between -->
+  <g transform="translate(40 200)">
+    <rect width="96" height="84" rx="10" fill="#0f1512" stroke="#5effa8" stroke-opacity=".7"/>
+    <rect x="10" y="14" width="56" height="14" rx="7" fill="#1d2a22"/><rect x="30" y="36" width="56" height="14" rx="7" fill="#5effa8" fill-opacity=".8"/>
+    <rect x="10" y="58" width="44" height="14" rx="7" fill="#1d2a22"/>
+    <g transform="translate(196 18)">
+      <rect x="0" y="18" width="44" height="34" rx="5" fill="#0f1512" stroke="#5effa8"/>
+      <path d="M8 18 V10 a14 14 0 0 1 28 0 V18" fill="none" stroke="#5effa8" stroke-width="5"/>
+      <circle cx="22" cy="35" r="5" class="g"/>
+    </g>
+    <g transform="translate(110 38)">
+      <rect class="pk" width="12" height="12" fill="none" stroke="#5effa8"/>
+      <rect class="pk pk2" y="0" width="12" height="12" fill="none" stroke="#5effa8"/>
+      <rect class="pk pk3" y="0" width="12" height="12" fill="none" stroke="#5effa8"/>
+    </g>
+    <g transform="translate(330 0)">
+      <rect width="96" height="84" rx="10" fill="#0f1512" stroke="#5effa8" stroke-opacity=".7"/>
+      <rect x="30" y="14" width="56" height="14" rx="7" fill="#5effa8" fill-opacity=".8"/><rect x="10" y="36" width="56" height="14" rx="7" fill="#1d2a22"/>
+      <rect x="30" y="58" width="44" height="14" rx="7" fill="#5effa8" fill-opacity=".8"/>
+    </g>
+  </g>
+  <g transform="translate(32 306)" class="b">
+    <text fill="#5effa8" x="0" y="17">React 18  ·  XMPP  ·  OMEMO2  ·  WebRTC  ·  PostgreSQL  ·  Docker</text>
+  </g>
+  <rect class="scan" width="600" height="360" rx="16"/>
+</svg>

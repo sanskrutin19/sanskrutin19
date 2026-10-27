@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Tender Intelligence: offline RAG that cites the exact sentence and page">
+  <style>
+    .t { font: italic 600 34px Georgia, 'Times New Roman', serif; fill: #1b1a17; }
+    .s { font: 400 16px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #5b564c; }
+    .m { font: 600 11px 'Cascadia Mono', Consolas, monospace; fill: #b3261e; letter-spacing: 1.5px; }
+    .c { font: 500 12px 'Segoe UI', Arial, sans-serif; fill: #1b1a17; }
+    .line { fill: #1b1a17; fill-opacity: .18; }
+    .hl { fill: #ffd84a; animation: sweep 3.2s cubic-bezier(.6,0,.3,1) infinite; transform-origin: 0 0; }
+    @keyframes sweep { 0% { transform: scaleX(0); } 35%, 85% { transform: scaleX(1); } 100% { transform: scaleX(0); opacity: 0; } }
+    .cite { animation: show 3.2s ease infinite; }
+    @keyframes show { 0%, 35% { opacity: 0; } 45%, 85% { opacity: 1; } 100% { opacity: 0; } }
+  </style>
+  <rect width="600" height="360" rx="16" fill="#f3eee3"/>
+  <rect x="1" y="1" width="598" height="358" rx="15" fill="none" stroke="#1b1a17" stroke-opacity=".15"/>
+  <text class="m" x="32" y="44">01 · FLAGSHIP · LIVE</text>
+  <text class="t" x="32" y="88">Answers you can verify.</text>
+  <text class="s" x="32" y="118">Offline RAG for tender documents. Every answer cites</text>
+  <text class="s" x="32" y="140">the exact sentence and page; hours of review → minutes.</text>
+
+  <!-- the page -->
+  <g transform="translate(330 168) rotate(-2)">
+    <rect width="236" height="160" rx="4" fill="#fbf8f1" stroke="#1b1a17" stroke-opacity=".12"/>
+    <text class="c" x="14" y="24" style="font-style:italic">Clause 4.2 · EMD</text>
+    <rect class="line" x="14" y="40" width="200" height="6"/>
+    <rect class="hl" x="12" y="55" width="210" height="14"/>
+    <rect x="14" y="59" width="196" height="6" fill="#1b1a17" fill-opacity=".55"/>
+    <rect class="line" x="14" y="78" width="180" height="6"/>
+    <rect class="line" x="14" y="96" width="206" height="6"/>
+    <rect class="line" x="14" y="114" width="150" height="6"/>
+    <text class="m" x="196" y="148">p.7</text>
+  </g>
+  <g class="cite">
+    <rect x="32" y="190" width="268" height="58" rx="6" fill="#1b1a17"/>
+    <text x="46" y="214" style="font: italic 15px Georgia, serif; fill: #ffd84a">“…furnish an EMD of ₹2,50,000…”</text>
+    <text x="46" y="236" style="font: 600 11px Consolas, monospace; fill: #f3eee3; letter-spacing: 1px">SAMPLE_TENDER.PDF · P.7 · CL.4.2</text>
+  </g>
+  <g transform="translate(32 296)">
+    <rect width="66" height="26" rx="13" fill="none" stroke="#1b1a17" stroke-opacity=".3"/><text class="c" x="13" y="17">Python</text>
+    <rect x="74" width="88" height="26" rx="13" fill="none" stroke="#1b1a17" stroke-opacity=".3"/><text class="c" x="87" y="17">LangChain</text>
+    <rect x="170" width="66" height="26" rx="13" fill="none" stroke="#1b1a17" stroke-opacity=".3"/><text class="c" x="183" y="17">Ollama</text>
+    <rect x="244" width="72" height="26" rx="13" fill="none" stroke="#1b1a17" stroke-opacity=".3"/><text class="c" x="256" y="17">FastAPI</text>
+  </g>
+</svg>
