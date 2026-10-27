@@ -69,6 +69,6 @@ I'm an AI/ML engineer (B.Tech AI & ML, graduating Oct 2026) who takes models pas
   <b>Have a difficult problem worth solving?</b>
   <br><br>
   <a href="mailto:naiksanskruti03@gmail.com"><img src="https://img.shields.io/badge/Email_me-1d3cff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/sanskruti-naik-475322341"><img src="https://img.shields.io/badge/LinkedIn-1e1e1e?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/sanskruti-naik"><img src="https://img.shields.io/badge/LinkedIn-1e1e1e?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://portfolio-green-nine-58.vercel.app"><img src="https://img.shields.io/badge/3D_Portfolio-e6e6e6?style=for-the-badge&logo=threedotjs&logoColor=1e1e1e" alt="Portfolio"></a>
 </p>
