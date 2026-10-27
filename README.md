@@ -38,7 +38,7 @@ Open to **AI/ML and Generative AI engineering roles**.
 ### More
 | Project | What it is | Stack |
 |---|---|---|
-| **Plant Disease Classifier** (internship) | CNN, 92% accuracy on 50K images / 38 classes, <200 ms via FastAPI, Grad-CAM in a Flutter app | TensorFlow · FastAPI · Flutter |
+| **Crop-Disease Diagnosis** (internship) | Shipped end to end: CNN for 38 diseases at 92% accuracy, served under 200 ms via FastAPI, with Grad-CAM heatmaps in a Flutter field app | TensorFlow · FastAPI · Flutter |
 | **Unauthorised Construction Detection** | PostGIS + Web GIS for a Sentinel-2 / SAR / Cartosat-3 ensemble with 5-day alerts | YOLOv8 · PostGIS |
 | **XAI-Care** | Multimodal fall detection where Grad-CAM and SHAP explain each alert to caregivers | TensorFlow · SHAP · Flutter |
 | **Water Survey** | Offline-first field app with geo-tagging and auto-sync | Flutter · SQLite |
