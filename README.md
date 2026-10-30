@@ -13,7 +13,7 @@
 ### I build AI people can trust.
 
 Answers that **cite their source**. Models that **explain themselves**. Apps that **keep working offline**.
-I'm an AI/ML engineer (B.Tech AI & ML, graduating Oct 2026) who takes models past the notebook: into APIs, phones, and the hands of people who aren't engineers.
+I'm an AI/ML engineer (B.Tech AI & ML, graduated Oct 2026) who takes models past the notebook: into APIs, phones, and the hands of people who aren't engineers.
 
 <br>
 
@@ -52,13 +52,13 @@ I'm an AI/ML engineer (B.Tech AI & ML, graduating Oct 2026) who takes models pas
   <br>
   <img src="https://skillicons.dev/icons?i=react,flutter,dart,js,threejs,figma,blender,git&perline=8" alt="React, Flutter, Dart, JavaScript, Three.js, Figma, Blender, Git">
 </p>
-<p align="center"><sub>Plus LangChain · Ollama · Hugging Face · ChromaDB · RAG · MCP · OpenCV · YOLOv8 · Grad-CAM · SHAP · WebRTC · Signal Protocol</sub></p>
+<p align="center"><sub>Plus LangChain · Ollama · Hugging Face · ChromaDB · RAG · prompt engineering · MCP · OpenCV · YOLOv8 · Grad-CAM · SHAP · Power BI · WebRTC · Signal Protocol</sub></p>
 
 <br>
 
 ## Experience & recognition
 
-- **AI / ML Intern, Endureva Innovations** (Jan – Jun 2026): shipped a crop-disease diagnosis feature end to end; built an offline restaurant POS.
+- **AI / ML Intern, Endureva Innovations** (Jan – Jun 2026): built Tender Intelligence (offline RAG, [live](https://promptivo.live/app)), SecureChat, a crop-disease diagnosis app, satellite construction detection (client work), Water Survey and an offline restaurant POS.
 - **3rd Prize, Smart India Hackathon** (college level): sign-language learning app for English and Gujarati Sign Language.
 - **Management Team Lead, Prabal Hackathon (GDG SGU)**: ran a 40-hour national hackathon for 600+ participants.
 - **Certifications**: NPTEL AI for Management · ISRO Remote Sensing · Cloud & Edge Computing workshop (SGU) · Accenture job simulations
